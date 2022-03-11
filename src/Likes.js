@@ -13,7 +13,6 @@ function Likes(props) {
 
 //передача данных из хранилища редакс в пропс текущего компонента
 function mapStateToProps(state) {
-    console.log('mapStateToProps > ', state);
     const { likesReducer } = state
 
     return {
